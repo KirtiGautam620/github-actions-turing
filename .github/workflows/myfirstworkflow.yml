@@ -7,8 +7,7 @@ jobs:
     steps:
       - name: Print Hello
         run: echo "Hello World"
-      - name: Checkout code
+      - name: Repo Clone
         uses: actions/checkout@v4
       - name: run index.js
         run: node index.js
-      
