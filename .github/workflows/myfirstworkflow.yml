@@ -7,5 +7,8 @@ jobs:
     steps:
       - name: Print Hello
         run: echo "Hello World"
+      - name: Use Node.js 20
+        uses: actions/setup-node@v4
       - name: run index.js
         run: node index.js
+      
